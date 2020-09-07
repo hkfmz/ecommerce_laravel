@@ -21,7 +21,7 @@ class ProduitTableSeeder extends Seeder
                 'sous_titre' => $faker->sentence(5),
                 'description' => $faker->text,
                 'prix' => $faker->numberBetween(15, 300) * 100,
-                'image' => 'https://via.placeholder.com/200x250'
+                'image' => 'http://lorempixel.com/200/250/food/1'
                  
             ]);
         }
